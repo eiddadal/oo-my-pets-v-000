@@ -55,6 +55,9 @@ class Owner
   end 
   
   def sell_pets
+    @pets.each do |species, species_array| 
+      
+    end 
   end 
   
   def list_pets 
