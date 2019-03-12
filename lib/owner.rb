@@ -62,9 +62,9 @@ class Owner
   end 
   
   def list_pets 
-    fish_number
-    cat_number 
-    dog_number
+    fish_number = @pets[:fishes].count
+    cat_number = @pets[:cats].count
+    dog_number = @pets[:dogs].count
   end 
   
   def self.reset_all 
