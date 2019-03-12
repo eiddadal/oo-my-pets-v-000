@@ -62,7 +62,9 @@ class Owner
   end 
   
   def list_pets 
-    
+    fish_number
+    cat_number 
+    dog_number
   end 
   
   def self.reset_all 
