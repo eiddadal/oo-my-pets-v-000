@@ -65,6 +65,7 @@ class Owner
     fish_number = @pets[:fishes].count
     cat_number = @pets[:cats].count
     dog_number = @pets[:dogs].count
+    "I have #{fish_number} fishes, I have #{cat_number} cats, I have #{dog_number} dogs."
   end 
   
   def self.reset_all 
