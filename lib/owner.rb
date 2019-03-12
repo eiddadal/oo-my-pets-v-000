@@ -19,6 +19,11 @@ class Owner
     @all 
   end 
   
+  def self.all_count
+    @@all.count
+  end 
+
+  
   def say_species 
   end 
   
