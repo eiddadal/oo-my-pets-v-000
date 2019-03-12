@@ -27,13 +27,6 @@ class Owner
     "I am a #{@species}"
   end 
   
-  def name 
-  end 
-  
-  def pets 
-    @pets
-  end 
-  
   def buy_fish(name) 
   end 
   
