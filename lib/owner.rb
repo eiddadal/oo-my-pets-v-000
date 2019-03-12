@@ -5,7 +5,9 @@ class Owner
   @count = 0
   
   def initialize(pets)
-    @pets = {} 
+    @pets = {
+      
+    } 
     @@all << self 
     @count += 1
   end 
